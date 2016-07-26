@@ -35,6 +35,10 @@ If you're using an old version of ToggleTouch, and want to update to a newer ver
 3. Run the command `sh update-toggletouch.sh` from the terminal.
 4. Enter the root password if prompted.
 
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to write to [kaivalyaraw@gmail.com](mailto:kaivalyaraw@gmail.com). I look forward to hearing from you.
+
 ## License
 
 **This project is released under and protected by the MIT License**
