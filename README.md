@@ -7,7 +7,9 @@ This program is designed for linux environments which support the `xinput` comma
 
 ## Setup
 
-####To install:
+####To Install:
+
+When installing ToggleTouch for the first time, use these commands. If you just want to update your version, go to the [update](#to-update) section instead.
 
 1. Download the files `install-toggletouch.sh` and `ToggleTouch.sh`.
 2. Move the files to your home directory. 
@@ -15,14 +17,23 @@ This program is designed for linux environments which support the `xinput` comma
 4. Enter the root password when prompted.
 5. When asked, inform ToggleTouch of the current state of your touch screen (or other input device).
 
-####To run:
+####To Run:
 
-From the terminal, use the command `toggletouch` to toggle the state of your touchscreen. The same command can be assigned a trigger such as a hot-corner, for greater utility. To configure for other input devices;
+From the terminal, use the command `toggletouch` to toggle the state of your touchscreen. The same command can be assigned a trigger such as a hot-corner, for greater utility. To configure for other input devices:
 
 1. Run the `xinput` command on your terminal.
 2. Note the name of the device you wish to enable/disable from the list displayed.
 3. From the name of your choice, determine a word unique only to this device.
 3. Use the command `toggletouch <NAME>`, where _<Name>_ is a single, unique word enough to identify a line from the output of `xinput`.
+
+####To Update:
+
+If you're using an old version of ToggleTouch, and want to update to a newer version, follow the following commands:
+
+1. Download the files `update-toggletouch.sh` and `ToggleTouch.sh`.
+2. Move the files to your home directory. 
+3. Run the command `sh update-toggletouch.sh` from the terminal.
+4. Enter the root password if prompted.
 
 ## License
 
