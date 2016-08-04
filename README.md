@@ -3,7 +3,7 @@ A linux program to enable/disable touch screens and other input devices. A singl
 
 ## Synopsis
 
-This program is designed for linux environments which support the `xinput` command, like Ubuntu and Linux-Mint. It is especially useful if used in conjuncton with hot-corner triggers such as the ones Unity or Cinnamon, in [Ubuntu](http://techgotcha.com/hot-corners-in-ubuntu/) and [Linux-Mint](http://www.zdnet.com/article/hands-on-with-mint-cinnamons-hot-corners/) respectively. Additionally, the program can be used to control any input device, not just the touch screen.
+This program is designed for linux environments which support the `xinput` command, like Ubuntu and Linux-Mint. It is especially useful if used in conjuncton with hot-corner triggers such as the ones available with Unity or Cinnamon, on [Ubuntu](http://techgotcha.com/hot-corners-in-ubuntu/) and [Linux-Mint](http://www.zdnet.com/article/hands-on-with-mint-cinnamons-hot-corners/) respectively. Additionally, the program can be used to control any input device, not just the touch screen.
 
 ## Setup
 
