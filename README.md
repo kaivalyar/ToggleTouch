@@ -1,4 +1,4 @@
-#ToggleTouch
+# ToggleTouch
 A linux program to enable/disable touch screens and other input devices. A single command for both enabling and disabling (toggling) is especially useful if used as a custom command for _hot-corners_ or other similar triggers.
 
 ## Synopsis
@@ -7,7 +7,7 @@ This program is designed for linux environments which support the `xinput` comma
 
 ## Setup
 
-####To Install:
+#### To Install:
 
 When installing ToggleTouch for the first time, use these commands. If you just want to update your version, go to the [update](#to-update) section instead.
 
@@ -17,7 +17,7 @@ When installing ToggleTouch for the first time, use these commands. If you just 
 4. Enter the root password when prompted.
 5. When asked, inform ToggleTouch of the current state of your touch screen (or other input device).
 
-####To Run:
+#### To Run:
 
 From the terminal, use the command `toggletouch` to toggle the state of your touchscreen. The same command can be assigned a trigger such as a hot-corner, for greater utility. To configure for other input devices:
 
@@ -26,7 +26,7 @@ From the terminal, use the command `toggletouch` to toggle the state of your tou
 3. From the name of your choice, determine a word unique only to this device.
 3. Use the command `toggletouch <NAME>`, where _<Name>_ is a single, unique word enough to identify a line from the output of `xinput`.
 
-####To Update:
+#### To Update:
 
 If you're using an old version of ToggleTouch, and want to update to a newer version, follow the following commands:
 
